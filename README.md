@@ -64,22 +64,13 @@ SmartWristband/
 ## 🔧 Setup Instructions
 
 ### ESP32 Firmware
-1. Open `firmware/main.cpp` in Arduino IDE.
+1. Open `main.ino` in Arduino IDE.
 2. Install necessary libraries: `WiFi.h`, `HTTPClient.h`, `OneWire.h`, `DallasTemperature.h`, etc.
 3. Flash code to ESP32 via USB.
 4. Update Wi-Fi credentials in code before flashing.
 
 ### Web App
-1. Navigate to `web-app/`.
-2. Install dependencies:
-   ```bash
-   pip install flask
-   ```
-3. Run the app:
-   ```bash
-   python app.py
-   ```
-4. Access the dashboard at: `http://localhost:5000/`
+1. Web app can be run thorugh Arduino IDE.
 
 ## 📊 Thresholds & Alerts
 
