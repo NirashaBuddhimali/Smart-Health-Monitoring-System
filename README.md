@@ -56,7 +56,7 @@ To design and implement a smart wristband that:
 SmartWristband/
 ├── main.ino                # ESP32 C++ code
 ├── circuit/                # Circuit diagrams (PDF/Image)
-├── docs/                   # Report
+├── docs/                   # Report, Presentation 
 ├── images/                 # Photos of prototype & UI
 └── README.md               # Project overview
 ```
