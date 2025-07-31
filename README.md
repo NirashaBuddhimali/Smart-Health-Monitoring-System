@@ -54,10 +54,9 @@ To design and implement a smart wristband that:
 
 ```
 SmartWristband/
-├── firmware/               # ESP32 C++ code
-├── web-app/                # Flask-based web app
+├── main.ino                # ESP32 C++ code
 ├── circuit/                # Circuit diagrams (PDF/Image)
-├── docs/                   # Report, presentation, mockups
+├── docs/                   # Report
 ├── images/                 # Photos of prototype & UI
 └── README.md               # Project overview
 ```
